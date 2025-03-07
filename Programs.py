@@ -22,12 +22,15 @@ num2 = float(input("Enter the second number: "))
 
 sum = num1 + num2
 print("Sum: ", sum)
-
 #Prog04: Create a program that ask user to input 2 numbers. Print the product of the two numbers.
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+product = num1 * num2
+print("Product", product)
 #Prog05: Create a program that ask user to input 2 numbers. Print the quotient of the two numbers with the decimal point.
 #Prog06: Create a program that ask user to input 2 numbers. Print the result when the first number is raised to the second number.
 #Prog07: Create a program that ask user to input 10 numbers. Print the sum of all the numbers.
 #Prog08: Create a program that ask user to input 10 numbers. Print how many are odd numbers.
 #Prog09: Create a program that print all the even numbers starting from 0 to 100. (Use for loop)
 #Prog10: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero.
-
