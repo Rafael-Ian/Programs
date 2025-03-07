@@ -29,8 +29,30 @@ num2 = float(input("Enter the second number: "))
 product = num1 * num2
 print("Product", product)
 #Prog05: Create a program that ask user to input 2 numbers. Print the quotient of the two numbers with the decimal point.
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+if num2 != 0:
+    quotient = num1 / num2
+    print("Quotient:", quotient)
+else:
+    print("Can't be divided by zero.")
 #Prog06: Create a program that ask user to input 2 numbers. Print the result when the first number is raised to the second number.
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+result = num1 ** num2
+print("Result:", result)
 #Prog07: Create a program that ask user to input 10 numbers. Print the sum of all the numbers.
+sum = 0 
+
+for i in range(10):
+    num = float(input(f"Enter number {i+1}: "))
+    sum += num
+
+print("Sum of all numbers:", sum)
 #Prog08: Create a program that ask user to input 10 numbers. Print how many are odd numbers.
 #Prog09: Create a program that print all the even numbers starting from 0 to 100. (Use for loop)
 #Prog10: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero.
+
+
