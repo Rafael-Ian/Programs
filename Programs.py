@@ -52,6 +52,14 @@ for i in range(10):
 
 print("Sum of all numbers:", sum)
 #Prog08: Create a program that ask user to input 10 numbers. Print how many are odd numbers.
+odd_count = 0
+
+for i in range(10):
+    num = int(input(f"Enter number {i+1}: "))
+    if num % 2 != 0:
+        odd_count += 1
+
+print("Number of odd numbers:", odd_count)
 #Prog09: Create a program that print all the even numbers starting from 0 to 100. (Use for loop)
 #Prog10: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero.
 
