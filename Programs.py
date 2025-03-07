@@ -61,6 +61,7 @@ for i in range(10):
 
 print("Number of odd numbers:", odd_count)
 #Prog09: Create a program that print all the even numbers starting from 0 to 100. (Use for loop)
+for num in range(0 , 101, 2):
+    print(num, end=" ")
 #Prog10: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero.
-
 
