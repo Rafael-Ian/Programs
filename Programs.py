@@ -1,5 +1,13 @@
 #Prog01: Create a program that ask user to input 2 numbers. Print the bigger number.
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
+if num1 > num2:
+    print("The bigger number is: ", num1)
+elif num2 > num1:
+    print("The bigger number is: ", num2)
+else:
+    print("The numbers are equal.")
 #Prog02: Create a program that ask user to input 2 numbers. Print "Equal" when the numbers are the same.
 #Prog03: Create a program that ask user to input 2 numbers. Print the sum of the two numbers.
 #Prog04: Create a program that ask user to input 2 numbers. Print the product of the two numbers.
@@ -9,3 +17,4 @@
 #Prog08: Create a program that ask user to input 10 numbers. Print how many are odd numbers.
 #Prog09: Create a program that print all the even numbers starting from 0 to 100. (Use for loop)
 #Prog10: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero.
+
